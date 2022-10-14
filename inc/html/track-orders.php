@@ -11,7 +11,7 @@ if(!function_exists('cnft_track_orders')){
 $orders = wc_get_orders( array(
     'limit'        => -1, // Query all orders
     'orderby'      => 'date',
-    'order'        => 'ASC',
+    'order'        => 'DESC',
     //'meta_key'     => 'add_gift_box', // The postmeta key field
     //'meta_compare' => 'Codeclouds NFT Discount', // The comparison argument
 ));
