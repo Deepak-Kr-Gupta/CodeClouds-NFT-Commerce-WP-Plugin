@@ -10,8 +10,7 @@
 
 .clear{
     clear: both;
-    display: block;
-    
+    display: block;   
 }
 
 .CCNFT{
@@ -21,7 +20,7 @@
 
 .resultNFT{
     color: green;
-    font-weight: bold;
+    font-size: 14px;
     /* margin-top: 70px;*/
     float: left;
 }
@@ -69,6 +68,6 @@
 
 @media only screen and (max-width: 340px){
     .enableEthereumButton{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

@@ -10,6 +10,8 @@ if(!function_exists('cnft_plugin_scripts')){
 		   wp_enqueue_script('cnft-js', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', 'jQuery', '1.0.0', true);
 		   //wp_enqueue_script('cnft-js2', 'https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js', 'jQuery', '1.0.0', true);
 		   wp_enqueue_script('cnft-js2', 'https://cdn.ethers.io/lib/ethers-5.2.umd.min.js', 'jQuery', '1.1.1', true);
+		   wp_enqueue_script('cnft-js3', 'https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.1/dist/umd/index.min.js', 'jQuery', '1.1.1', true);
+		   wp_enqueue_script('cnft-js4','https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js', 'jQuery', '1.1.1', true);
 		   
 		}
 		wp_enqueue_script('cnft-ajax', CNFT_PLUGIN_DIR.'/assets/js/ajax.js', 'jQuery', '1.0.0', true);

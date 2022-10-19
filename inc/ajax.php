@@ -6,7 +6,7 @@ add_action('woocommerce_checkout_before_order_review', 'amano_back_to_store');
 function amano_back_to_store() {
  if (is_checkout()) {
     echo '<div id="CCNFT" class="CCNFT">';  
-    echo '<div class="enableEthereumButton">Claim Codeclouds NFT Discount →</div>';
+    echo '<div class="enableEthereumButton">Claim CodeClouds NFT Discount</div>';
     echo '<div class="clear"></div>';  
     echo '<p class="resultNFT"></p>';
     echo '</div>';
